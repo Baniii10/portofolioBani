@@ -11,6 +11,7 @@ const skillIcons = { 'Figma': FaFigma, 'React': FaReact, 'JavaScript': FaJsSquar
 const projects = [
   { id: '01', title: 'Alinea Laundry', type: 'Produk digital + UI/UX', description: 'Pengalaman digital yang membantu pelanggan menemukan layanan laundry, memilih kebutuhan, dan memantau proses dengan lebih mudah.', art: 'art-archive', image: '/alinea-laundry.jpg', action: 'Lihat studi kasus' },
   { id: '02', title: 'Honea', type: 'Aplikasi penjualan', description: 'Aplikasi penjualan nanas madu yang membantu pelanggan menemukan produk, memilih pesanan, dan berbelanja dengan mudah.', art: 'art-social', image: '/honea.jpg', action: 'Lihat studi kasus' },
+  { id: '03', title: 'Website Sekolah', type: 'Website Institusi & PPDB', description: 'Website resmi KB & TK Islam Madina yang menghadirkan profil sekolah, program berbasis nilai Islami, serta pendaftaran siswa baru (PPDB) yang informatif dan ramah pengguna.', art: 'art-school', image: '/website-sekolah.png', action: 'Lihat studi kasus' },
 ]
 
 const timeline = {
@@ -27,6 +28,13 @@ const timeline = {
     tags: ['Katalog jelas', 'Pesan lebih mudah', 'Produk terarah'],
     next: ['Tambahkan pelacakan pengiriman.', 'Buat paket langganan mingguan.', 'Tambahkan ulasan dari pelanggan.'],
     steps: [['Pahami kebutuhan', 'Memahami cara pelanggan memilih nanas madu dan menentukan jumlah pesanan.'], ['Rancang katalog', 'Menyusun informasi produk, harga, dan pilihan pesanan agar mudah dipahami.'], ['Validasi alur beli', 'Menguji proses belanja dari katalog sampai konfirmasi pesanan.']],
+  },
+  'Website Sekolah': {
+    title: 'Website Sekolah / Ringkasan dampak',
+    description: 'Membangun identitas digital KB & TK Islam Madina dengan tampilan ramah anak dan bernilai Islami untuk mempermudah calon orang tua murid mengakses profil, program, dan alur pendaftaran.',
+    tags: ['Lingkungan Islami', 'PPDB Mudah', 'Desain Ramah Anak'],
+    next: ['Integrasi sistem pendaftaran PPDB online interaktif.', 'Portal pengumuman dan kegiatan rutin siswa.', 'Galeri foto & video kegiatan pembelajaran digital.'],
+    steps: [['Riset Kebutuhan Institusi', 'Memahami kebutuhan sekolah dalam menyajikan informasi program Islami, fasilitas, dan pendaftaran.'], ['Perancangan Visual & UI/UX', 'Menyusun antarmuka modern bernuansa hijau alami yang ramah anak dengan navigasi terarah.'], ['Pengembangan & Integrasi', 'Membangun komponen web responsif dengan akses informasi lengkap dan saluran langsung kontak WhatsApp.']],
   },
 }
 
